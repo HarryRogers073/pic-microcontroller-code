@@ -108,8 +108,9 @@ pic-microcontroller-code/
 - **Author:** Harry Rogers
 - **Degree:** BEng (Hons) Electronic & Computer Engineering (First-Class Honours)
 - **Institution:** University of Brighton
-- **Modules:** EO631 (Embedded Systems 3) & EO524 (Embedded Systems)
+- **Curriculum:** Advanced Embedded Systems & Microcontroller Firmware (Distinction Grade)
 - **Portfolio:** [www.harry-rogers.com](https://www.harry-rogers.com)
+- **LinkedIn:** [linkedin.com/in/harryrogers073](https://www.linkedin.com/in/harryrogers073/)
 
 ---
 
