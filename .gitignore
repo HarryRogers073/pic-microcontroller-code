@@ -1,0 +1,17 @@
+﻿# Build and temporary files
+*.o
+*.d
+*.p1
+*.hex
+*.cof
+*.sym
+*.map
+build/
+dist/
+nbproject/private/
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
