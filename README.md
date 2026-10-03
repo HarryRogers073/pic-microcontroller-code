@@ -8,6 +8,13 @@
 
 ---
 
+### 📜 Academic Integrity & Attribution Disclosure
+- **Author & Firmware Development:** Authored by **Harry Rogers** for University of Brighton modules `EO524` (Embedded Systems) and `EO631` (Embedded Systems 3), earning an **84% Distinction Grade (A+)**.
+- **Third-Party & Vendor IP:** Microcontroller register definitions (`p16f873.inc`, `p16f84a.inc`, `<xc.h>`), processor configuration fuse directives, and standard peripheral initialization paradigms are copyright **Microchip Technology Inc.**
+- **Hardware Reference:** Circuit designs reference standard Microchip application notes for PIC16 Harvard architecture interrupt service routines and CCP/PWM register topologies.
+
+---
+
 ## 🎯 Architecture & Included Modules
 
 ### 1. MPASM Assembly Firmware (`firmware_asm/`)
