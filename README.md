@@ -4,14 +4,16 @@
 [![Microcontroller](https://img.shields.io/badge/Hardware-PIC16F873%20%7C%20PIC16F84A%20%7C%20PIC18-blue?style=for-the-badge&logo=microchip)](https://www.microchip.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-> A modular embedded firmware repository housing **MPASM assembly routines** and **MPLAB XC8 embedded C drivers** for Microchip PIC microcontrollers. Developed across undergraduate embedded systems modules (EO631 & EO524) at the **University of Brighton**, covering hardware timers, PWM pulse modulation, UART telemetry, ultrasonic sensor ranging, stepper motor indexing, and character LCD control.
+> A modular embedded firmware repository housing **MPASM assembly routines** and **MPLAB XC8 embedded C drivers** for Microchip PIC microcontrollers, developed during engineering degree studies at the **University of Brighton**. Spans bare-metal Harvard architecture assembly, dynamic PWM pulse modulation, UART serial bus orchestration, and the autonomous mobile sensor buggy embedded C firmware.
 
 ---
 
 ### 📜 Academic Integrity & Attribution Disclosure
-- **Author & Firmware Development:** Authored by **Harry Rogers** for University of Brighton modules `EO524` (Embedded Systems) and `EO631` (Embedded Systems 3), earning an **84% Distinction Grade (A+)**.
+- **Author & Firmware Development:** Authored by **Harry Rogers** across embedded systems coursework at the University of Brighton, achieving an **84% Distinction Grade (A+)**.
+- **Project Scope & Architecture:** 
+  - The **MPASM Assembly Firmware** (`firmware_asm/`) is a low-level register-level implementation of dual-PIC master/slave UART communication and hardware Timer 2 PWM modulation.
+  - The **Embedded C Drivers** (`firmware_c/`) were developed for the autonomous mobile sensor buggy platform (co-authored with Albie Gullis), implementing dual-screen I2C telemetry, ADC temperature sensing, and sonar collision avoidance. This autonomous sensor buggy is a separate project from the collegiate Robot Wars combat platform.
 - **Third-Party & Vendor IP:** Microcontroller register definitions (`p16f873.inc`, `p16f84a.inc`, `<xc.h>`), processor configuration fuse directives, and standard peripheral initialization paradigms are copyright **Microchip Technology Inc.**
-- **Hardware Reference:** Circuit designs reference standard Microchip application notes for PIC16 Harvard architecture interrupt service routines and CCP/PWM register topologies.
 
 ---
 
