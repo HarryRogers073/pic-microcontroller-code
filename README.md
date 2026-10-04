@@ -4,7 +4,7 @@
 [![Microcontroller](https://img.shields.io/badge/Hardware-PIC16F873%20%7C%20PIC16F84A%20%7C%20PIC18-blue?style=for-the-badge&logo=microchip)](https://www.microchip.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-> A modular embedded firmware repository housing **MPASM assembly routines** and **MPLAB XC8 embedded C drivers** for Microchip PIC microcontrollers, developed during engineering degree studies at the **University of Brighton** (Grade: **84% Distinction / A+**). It includes bare-metal Harvard architecture assembly for PWM and UART reception, alongside embedded C drivers for the autonomous mobile sensor buggy.
+> A modular embedded firmware repository housing **MPASM assembly routines** and **MPLAB XC8 embedded C drivers** for Microchip PIC microcontrollers, developed during engineering degree studies at the **University of Brighton** (Grade: **First Class 79% / A**). It includes bare-metal Harvard architecture assembly for PWM and UART reception, alongside embedded C drivers for the autonomous mobile sensor buggy.
 
 ---
 
@@ -108,9 +108,9 @@ pic-microcontroller-code/
 
 - **Author:** Harry Rogers
 - **Collaborator (Buggy C Firmware):** Albie Gullis
-- **Degree:** BEng (Hons) Electronic & Computer Engineering (First-Class Honours)
+- **Degree:** BEng (Hons) Electronic & Computer Engineering (First Class 80%)
 - **Institution:** University of Brighton
-- **Context:** Embedded Systems Engineering Coursework (Grade: 84% / A+)
+- **Context:** Embedded Systems Engineering Coursework (First Class 79% / A)
 - **Website:** [www.harry-rogers.com](https://www.harry-rogers.com)
 - **LinkedIn:** [linkedin.com/in/harryrogers073](https://www.linkedin.com/in/harryrogers073/)
 
