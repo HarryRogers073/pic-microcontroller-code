@@ -8,7 +8,7 @@
 
 ---
 
-### ◆ Academic Integrity & Attribution Disclosure
+### Academic Integrity & Attribution Disclosure
 - **Author & Firmware Development:** Authored by **Harry Rogers** across embedded systems coursework at the University of Brighton.
 - **Repository Scope & Attribution Breakdown:**
   - **`firmware_asm/` (Bare-Metal MPASM Assembly):** Authored entirely by Harry Rogers. Contains register-level assembly routines for hardware Timer 2 PWM generation, interrupt-on-change radio signal decoding, and direct Port C diagnostic latching on the PIC16F873 and PIC16F84A.
@@ -18,7 +18,7 @@
 
 ---
 
-## ★ Repository Architecture
+## Repository Architecture
 
 ### 1. MPASM Assembly Firmware (`firmware_asm/`)
 Targeted to **PIC16F84A** and **PIC16F873** 8-bit Harvard architecture microcontrollers:
@@ -36,7 +36,7 @@ Targeted to MPLAB XC8 compiler:
 
 ---
 
-## ◆ Hardware Control Flow
+## Hardware Control Flow
 
 ```mermaid
 flowchart TD
@@ -66,7 +66,7 @@ flowchart TD
 
 ---
 
-## ◆ Repository Structure
+## Repository Structure
 
 ```text
 pic-microcontroller-code/
@@ -87,7 +87,7 @@ pic-microcontroller-code/
 
 ---
 
-## → Compilation & Flashing Guide
+## Compilation & Flashing Guide
 
 ### Assembling MPASM Files in MPLAB X
 1. Open **MPLAB X IDE**.
@@ -104,7 +104,7 @@ pic-microcontroller-code/
 
 ---
 
-## ★ Academic Information & Author
+## Academic Information & Author
 
 - **Author:** Harry Rogers
 - **Collaborator (Buggy C Firmware):** Albie Gullis
@@ -116,5 +116,5 @@ pic-microcontroller-code/
 
 ---
 
-## ◆ License
+## License
 This repository is licensed under the MIT License - see [LICENSE](LICENSE) for details. Microchip register definitions and include files remain the property of Microchip Technology Inc.
