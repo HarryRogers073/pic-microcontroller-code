@@ -1,3 +1,11 @@
+;================================================================================
+; Program:       16F873_RX_to_PWM.asm
+; Description:   Interrupt-driven radio receiver pulse decoder & CCP1 PWM duty control
+; Author:        Harry Rogers (University of Brighton)
+; Date:          2022
+; Target Device: Microchip PIC16F873 (4 MHz Crystal)
+;================================================================================
+
 Title	"16F873_RX_to_PWM.asm"
 ;   *********************************************************************
 ;   * Program title: 16F873_RX_to_PWM                             	*

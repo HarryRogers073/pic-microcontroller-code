@@ -1,3 +1,11 @@
+;================================================================================
+; Program:       PWM.asm
+; Description:   Timer 2 & CCP1 register configuration for hardware pulse width modulation
+; Author:        Harry Rogers (University of Brighton)
+; Date:          2022
+; Target Device: Microchip PIC16F873 (4 MHz Crystal)
+;================================================================================
+
 list    p = 16f873, f = inhx8m
     include <p16f873.inc>
     __CONFIG _XT_OSC & _WDT_OFF & _PWRTE_ON & _LVP_OFF & _DEBUG_OFF & _CP_OFF

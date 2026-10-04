@@ -1,3 +1,12 @@
+/*
+--------------------------------------------------------------------------------
+-- Module Name:   stepper_actuator.c
+-- Description:   4-phase stepper motor positioning driver
+-- Authors:       Harry Rogers & Albie Gullis (University of Brighton)
+-- Date:          2022
+-- Hardware:      Microchip PIC16F873, Unipolar Stepper
+--------------------------------------------------------------------------------
+*/
 #include <xc.h>  // This defines all the C commands we are going to use
 #pragma config FOSC = XT, WDTE = OFF, PWRTE = ON, CP = OFF
 #define _XTAL_FREQ 4000000 //4 MHz crystal for use with delay macros
