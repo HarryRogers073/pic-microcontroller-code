@@ -1,12 +1,12 @@
 /*
---------------------------------------------------------------------------------
--- Module Name:   MovementCode.c
--- Description:   Differential motor steering driver for autonomous sensor buggy
--- Authors:       Harry Rogers & Albie Gullis (University of Brighton)
--- Date:          2022
--- Hardware:      Microchip PIC16F873 (4 MHz Crystal), Dual DC Motors
---------------------------------------------------------------------------------
+================================================================================
+File:         MovementCode.c
+Written by:   Harry Rogers & Albie Gullis
+Date:         May 2022
+Description:  Autonomous sensor buggy differential motor drive controller with speed scaling
+================================================================================
 */
+
 /* Template to start coding with the PIC16F873
 
  * Hardware Description

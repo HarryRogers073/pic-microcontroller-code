@@ -1,10 +1,9 @@
-;================================================================================
-; Program:       16F873_RX_to_LEDs_PORTC.ASM
-; Description:   Receiver pulse decode and Port C byte-level LED diagnostics
-; Author:        Harry Rogers (University of Brighton)
-; Date:          2022
-; Target Device: Microchip PIC16F873 (4 MHz Crystal)
-;================================================================================
+;===============================================================================
+; File:         16F873_RX_to_LEDs_PORTC.ASM
+; Written by:   Harry Rogers
+; Date:         May 2022
+; Description:  Direct Port C diagnostic latching from receiver pulse inputs
+;===============================================================================
 
 ;************************************************************************************
 ; Program title:  16F873_RX_to_PWM_2026

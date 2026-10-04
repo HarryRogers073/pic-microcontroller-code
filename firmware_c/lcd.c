@@ -1,12 +1,12 @@
 /*
---------------------------------------------------------------------------------
--- Module Name:   lcd.c
--- Description:   I2C HD44780 character LCD display telemetry driver
--- Original:      Khaled Magdy (DeepBlueEmbedded tutorial)
--- Adapted by:    Kay Hendriksen & Harry Rogers
--- Context:       University of Brighton Embedded Systems
---------------------------------------------------------------------------------
+================================================================================
+File:         lcd.c
+Written by:   Adapted by Harry Rogers & Kay Hendriksen (Original: Khaled Magdy)
+Date:         May 2022
+Description:  I2C HD44780 character LCD display telemetry driver
+================================================================================
 */
+
 #include <xc.h>
 #pragma config FOSC=XT,WDTE=OFF,PWRTE=ON,CP=OFF,BOREN=OFF,LVP=OFF
 

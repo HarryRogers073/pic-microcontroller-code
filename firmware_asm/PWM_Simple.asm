@@ -1,10 +1,9 @@
-;================================================================================
-; Program:       PWM_Simple.asm
-; Description:   Direct RC pulse width to LED PWM brightness controller
-; Author:        Harry Rogers (University of Brighton)
-; Date:          2022
-; Target Device: Microchip PIC16F873 (4 MHz Crystal)
-;================================================================================
+;===============================================================================
+; File:         PWM_Simple.asm
+; Written by:   Harry Rogers
+; Date:         May 2022
+; Description:  Direct RC pulse width to LED PWM brightness controller
+;===============================================================================
 
         list    p=16f873, f=inhx8m
         include <p16f873.inc>

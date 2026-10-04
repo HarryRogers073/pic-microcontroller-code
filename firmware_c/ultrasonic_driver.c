@@ -1,12 +1,12 @@
 /*
---------------------------------------------------------------------------------
--- Module Name:   ultrasonic_driver.c
--- Description:   HC-SR04 ultrasonic sonar trigger & echo capture for obstacle evasion
--- Authors:       Harry Rogers & Albie Gullis (University of Brighton)
--- Date:          2022
--- Hardware:      Microchip PIC16F873, HC-SR04 Sonar
---------------------------------------------------------------------------------
+================================================================================
+File:         ultrasonic_driver.c
+Written by:   Harry Rogers & Albie Gullis
+Date:         May 2022
+Description:  Precision timer-based HC-SR04 sonar trigger and echo capture driver
+================================================================================
 */
+
 #include <xc.h>
 #pragma config FOSC=XT,WDTE=OFF,PWRTE=ON,CP=OFF
 #define _XTAL_FREQ 4000000

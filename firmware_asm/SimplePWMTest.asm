@@ -1,10 +1,9 @@
-;================================================================================
-; Program:       SimplePWMTest.asm
-; Description:   Automated bench verification loop for hardware PWM duty cycle calibration
-; Author:        Harry Rogers (University of Brighton)
-; Date:          2022
-; Target Device: Microchip PIC16F873 (4 MHz Crystal)
-;================================================================================
+;===============================================================================
+; File:         SimplePWMTest.asm
+; Written by:   Harry Rogers
+; Date:         May 2022
+; Description:  Automated bench verification loop for pulse width integrity checking
+;===============================================================================
 
 list    p=16f873, f=inhx8m        ; Set chip type and hex output format
     include <p16f873.inc>             ; Load standard names (like PORTB)
